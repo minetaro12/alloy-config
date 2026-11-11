@@ -1,0 +1,7 @@
+import.http "central" {
+  url            = "https://raw.githubusercontent.com/minetaro12/alloy-config/master/host.alloy"
+  poll_frequency = "1m"
+  poll_timeout   = "10s"
+}
+
+central.monitor "host" {}
